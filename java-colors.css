@@ -1,0 +1,78 @@
+.token-keyword1 {
+    -fx-fill: #B3ACE5;
+}
+.token-keyword2 {
+    -fx-fill: #9A66CE;
+}
+.token-keyword3 {
+    -fx-fill: #AA62BD;
+}
+
+.token-comment-normal {
+    -fx-fill: rgb(160,160,160);
+}
+.token-comment-javadoc {
+    -fx-fill: rgb(135, 206, 250);
+}
+.token-comment-standout {
+    -fx-fill: #11FF44;
+}
+
+.token-primitive {
+	font-weight: bolder;
+    -fx-fill: #FFFFFF;
+}
+.token-char-literal {
+    -fx-fill: #C85EB8;
+}
+.token-string-literal {
+    -fx-fill: #6495ed;
+}
+.token-label {
+    -fx-fill: #ff38ff;
+}
+.token-invalid {
+    -fx-fill: #FFFFFF;
+}
+/* Default text colour */
+.token-default {
+    -fx-fill: lightgrey;
+}
+
+.scope-colors {
+    -bj-background-color: black;
+
+    -bj-class-color: rgb(25,25,25);
+    -bj-class-outer-color: rgb(90,90,90);
+    -bj-class-inner-color: rgb(90,90,90);
+
+    -bj-method-color: rgb(40,40,40);
+    -bj-method-outer-color: rgb(90,90,90);
+
+    -bj-selection-color: rgb(18, 18, 44);
+    -bj-selection-outer-color: rgb(90, 90, 90);
+		
+    -bj-iteration-color: rgb(27, 18, 41);
+    -bj-iteration-outer-color: rgb(90, 90, 90);
+
+    -bj-breakpoint-overlay-color: #2F236F;
+    -bj-step-overlay-color: rgba(235, 115, 235, 0.6);
+}
+
+.moe-step-mark-icon {
+    -fx-fill: rgb(235, 115, 235);
+    -fx-stroke: white;
+}
+
+.moe-editor-pane {
+    -fx-background-color: black; // outside of class body
+    -fx-highlight-fill: rgb(0, 0, 60); // highlight on mouse drag
+}
+
+.moe-find-result {
+    -rtfx-background-color: rgb(50,50,80); // not sure what this does... ctrl+f highlighting is managed by -fx-highlight-fill
+}
+.moe-editor-pane .caret {
+   -fx-stroke: rgb(255, 200, 200);
+}
+/*test update*/
